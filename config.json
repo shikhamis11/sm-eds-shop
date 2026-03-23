@@ -1,0 +1,42 @@
+{
+    "public": {
+      "default": {
+        "commerce-core-endpoint": "https://na1.api.commerce.adobe.com/PXHw8LLFwYXMoR6TGZib4M/graphql",
+        "commerce-endpoint": "https://na1.api.commerce.adobe.com/PXHw8LLFwYXMoR6TGZib4M/graphql",
+        "commerce-assets-enabled": false,
+        "commerce-base-currency-code":"USD",
+        "headers": {
+          "all": {
+            "Store": "default"
+          },
+          "cs": {
+            "Magento-Store-Code": "main_website_store",
+            "Magento-Store-View-Code": "default",
+            "Magento-Website-Code": "base",
+            "x-api-key": "search_gql",
+            "Magento-Environment-Id": "PXHw8LLFwYXMoR6TGZib4M"
+          }
+        },
+        "analytics": {
+          "base-currency-code": "USD",
+          "environment": "Testing",
+          "environment-id": "PXHw8LLFwYXMoR6TGZib4M",
+          "store-code": "main_website_store",
+          "store-id": 1,
+          "store-name": "Main Website Store",
+          "store-url": "https://main--sm-eds-shop--shikhamis11.aem.live/",
+          "store-view-code": "default",
+          "store-view-id": 1,
+          "store-view-name": "Default Store View",
+          "website-code": "base",
+          "website-id": 1,
+          "website-name": "Main Website"
+        },
+        "plugins": {
+          "picker": {
+             "rootCategory": "YOUR_ROOT_CATEGORY_ID"
+           }
+        }
+      }
+    }
+  }
